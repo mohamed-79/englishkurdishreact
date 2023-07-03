@@ -1,0 +1,22 @@
+{
+  "hello": {
+    "en": "Hello",
+    "es": "Hola",
+    "fr": "Bonjour"
+  },
+  "world": {
+    "en": "World",
+    "es": "Mundo",
+    "fr": "Monde"
+  },
+  "greeting": {
+    "en": "Greetings",
+    "es": "Saludos",
+    "fr": "Salutations"
+  },
+  "search": {
+    "en": "Search",
+    "es": "Buscar",
+    "fr": "Rechercher"
+  }
+}
