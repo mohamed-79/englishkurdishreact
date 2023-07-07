@@ -1,0 +1,18 @@
+{
+    "hello": {
+      "en": "Hello",
+      "ku": "chawani"
+
+    },
+    "goodbye": {
+      "en": "Goodbye",
+      "ku": "xatra te"
+
+    },
+    "house": {
+        "en":  "house",
+        "ku": "xani"
+    } 
+
+  }
+  
