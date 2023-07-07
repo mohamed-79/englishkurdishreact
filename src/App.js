@@ -57,12 +57,11 @@ function App() {
   return (
     <div className="container">
       <h1>
-        {t('hello')} {t('world')}!
+        {t('chawani')} {t('bashi')}!
       </h1>
       <div className="language-buttons">
-        <button onClick={() => handleLanguageChange('en')}>English</button>
-        <button onClick={() => handleLanguageChange('es')}>Español</button>
-        <button onClick={() => handleLanguageChange('fr')}>Français</button>
+        <button className="my-button" onClick={() => handleLanguageChange('en')}>English</button>
+        <button className="my-button" onClick={() => handleLanguageChange('ku')}>Kurdish</button>
       </div>
       <div className="search-container">
         <div className="input-container">
@@ -76,18 +75,10 @@ function App() {
         </div>
         <div className="swap-container">
           <button className="swap-button" onClick={handleSwap}>
-            Swap
+            Wergeran
           </button>
         </div>
-        <div className="input-container">
-          <input
-            type="text"
-            placeholder="Search 2"
-            className="search-input"
-            value={searchTerm2}
-            onChange={handleSearch2}
-          />
-        </div>
+
       </div>
       <div className="results-container">
         <ul>
@@ -95,11 +86,7 @@ function App() {
             <li key={key}>{getTranslation(key)}</li>
           ))}
         </ul>
-        <ul>
-          {searchResults2.map((key) => (
-            <li key={key}>{getTranslation(key)}</li>
-          ))}
-        </ul>
+    
       </div>
     </div>
   );

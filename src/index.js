@@ -12,12 +12,9 @@ i18n.init({
     en: {
       translation: require('./translations/en.json')
     },
-    es: {
-      translation: require('./translations/es.json')
+    ku: {
+      translation: require('./translations/ku.json')
     },
-    fr: {
-      translation: require('./translations/fr.json')
-    }
   }
 });
 
