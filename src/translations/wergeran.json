@@ -1,18 +1,33 @@
 {
     "hello": {
       "en": "Hello",
-      "ku": "chawani"
+      "ku": "جاوانی"
 
     },
     "goodbye": {
       "en": "Goodbye",
-      "ku": "xatra te"
+      "ku": "خاترا تە"
 
     },
     "house": {
-        "en":  "house",
-        "ku": "xani"
-    } 
-
+        "en":  "House",
+        "ku": "خانی"
+    },
+    "horse": {
+        "en":  "Horse",
+        "ku": "هەسپ"
+}, 
+    "food": {
+        "en":  "Food",
+        "ku": "خارن"
+},
+    "apple": {
+        "en":  "apple",
+        "ku": "سێڤ"
+},
+    "goodmoring": {
+       "en":  "Goodmoring",
+       "ku": "روژ باش"
+}
   }
   
